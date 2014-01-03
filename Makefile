@@ -9,3 +9,8 @@ include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
 	install.exec "killall -9 MobileSlideShow"
+
+purge:
+	rm *.deb
+	rm -rf obj/
+	rm -rf _/
