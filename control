@@ -1,0 +1,9 @@
+Package: com.harlanhaskins.photoblackground
+Name: Photo Blackground
+Depends: mobilesubstrate, firmware (>= 7.0)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Removes the jarring white background in Photos.app when viewing a photo.
+Maintainer: Harlan Haskins
+Author: Harlan Haskins
+Section: Tweaks
